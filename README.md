@@ -18,7 +18,7 @@ samtools faidx 161010_Chinese_Spring_v1.0_pseudomolecules.fasta
 awk '{OFS="\t"; print $1,$2}' 161010_Chinese_Spring_v1.0_pseudomolecules.fasta.fai > RefSeqv1.0_genome_file.txt
 bedtools makewindows -w 1000000 -g RefSeqv1.0_genome_file.txt > RefSeqv1.0_1Mb_windows.bed
 bedtools makewindows -w 10000000 -g RefSeqv1.0_genome_file.txt > RefSeqv1.0_10Mb_windows.bed
-``
+```
 
 Convert input file into bed format
 ```
