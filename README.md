@@ -6,7 +6,7 @@ source bedtools-2.28.0
 source samtools-1.4
 ```
 
-Specify input file (two column tsv file with chromosome name and position)
+Specify input file (two column tsv file with chromosome name and position) and output file prefix
 ```
 input_file=gene_positions.tsv
 prefix=gene_positions
